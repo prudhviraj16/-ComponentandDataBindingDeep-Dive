@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-xs-12">
+    <p>Add new Todos or blueprints</p>
+    <label for="">Title</label>
+    <input type="text" class="form-control" #serverNameInput><br>
+    <label for="">Content</label>
+    <input type="text" class="form-control" #serverContentInput>
+    <br>
+    <button class="btn btn-info m-1" (click)="onAddServer(serverNameInput)">Add Server</button>
+    <button class="btn btn-info" (click)="onAddBluePrint(serverNameInput)">Add Server Blueprint</button>
+  </div>
+</div>
+
+
